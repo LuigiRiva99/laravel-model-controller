@@ -1,4 +1,9 @@
 @use './partials/_header';
 @use './partials/_footer';
+@use './partials/_card';
 @import '~bootstrap/scss/bootstrap';
+
+.app{
+    background-color: #1C1C1C;
+}
 

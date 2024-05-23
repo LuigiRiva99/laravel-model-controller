@@ -1,0 +1,19 @@
+.card-section{
+    .title{
+        color: white
+    };
+
+    .ms_card{
+        height: 300px !important;
+        background-color: transparent;
+        color: white;
+        border: none;
+        &:hover{
+            box-shadow: 1px 1px 2px 2px white ;
+        }
+        .card-image{
+            height: 250px;
+            // object-fit: contain;
+        }
+    }
+}

@@ -10,11 +10,13 @@
 </head>
 <body>
 
-    <div>
+    <div class="app d-flex flex-column vh-100">
         @include('partials.header') 
 
-        <main>
-            @yield('content')
+        <main class="flex-grow-1">
+            <div class="container text-center">
+                @yield('content')
+            </div>
         </main>
 
         @include('partials.footer')
